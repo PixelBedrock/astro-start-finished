@@ -5,6 +5,7 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://localhost:4321",
+  site: "https://pixelbedrock.github.io",
+  base: "astro-start-finished",
   integrations: [preact()]
 });
